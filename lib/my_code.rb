@@ -41,7 +41,7 @@ def reduce_to_total(optional_parameters*)
   end
     
   while i < optional_parameters[0].length
-    total = total + optional_parameters[0[i]
+    total = total + optional_parameters[0][i]
     i += 1
   end
   return total
