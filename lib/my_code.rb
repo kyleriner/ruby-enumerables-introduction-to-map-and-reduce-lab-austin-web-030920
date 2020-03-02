@@ -32,16 +32,16 @@ def map_to_square(source_array)
   return squared_array
 end
 
-def reduce_to_total(optional_parameters*)
+def reduce_to_total(source_array, starting_point*)
   i = 0
-  if optional_parameters[1]
-    total = optional_parameters[1]
-  else
+  if starting_point
+    total = starting_point
+  else starting_point == nil
     total = 0
   end
     
-  while i < optional_parameters[0].length
-    total = total + optional_parameters[0][i]
+  while i < source_array.length
+    total = total + source_array[i]
     i += 1
   end
   return total
