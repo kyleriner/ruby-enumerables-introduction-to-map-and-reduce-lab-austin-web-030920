@@ -40,8 +40,8 @@ def reduce_to_total(optional_parameters*)
     total = 0
   end
     
-  while i < source_array.length
-    total = total + source_array[i]
+  while i < optional_parameters[0].length
+    total = total + optional_parameters[0[i]
     i += 1
   end
   return total
