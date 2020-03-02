@@ -13,7 +13,7 @@ def map_to_no_change(source_array)
   return source_array
 end     # ???
   
-map_to_double(source_array)
+def map_to_double(source_array)
   i = 0
   doubled_array = []
   while i < source_array.length do
@@ -23,7 +23,7 @@ map_to_double(source_array)
   return doubled_array
 end
 
-map_to_square(source_array)
+def map_to_square(source_array)
   i = 0
   squared_array = []
   while i < source_array.length do
