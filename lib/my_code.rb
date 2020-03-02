@@ -51,15 +51,16 @@ def reduce_to_all_true(source_array)
   i = 0
   while i < source_array.length do
     if source_array[i] == nil
-      source_array[i] = !source_array[i]
+      return false
     end
     i += 1
   end
-  return source_array
+  return true
 end
 
-
-
+def reduce_to_any_true(source_array)
+  i = 0
+end
 
 
 
