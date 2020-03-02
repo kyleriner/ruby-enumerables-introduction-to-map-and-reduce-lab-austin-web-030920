@@ -27,4 +27,4 @@ map_to_square(source_array)
   i = 0
   squared_array = []
   while i < source_array.length do
-    squared_array[i] = Math.sqrt()
+    squared_array[i] = Math.sqrt(source_array[i])
