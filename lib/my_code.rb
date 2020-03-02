@@ -28,3 +28,9 @@ map_to_square(source_array)
   squared_array = []
   while i < source_array.length do
     squared_array[i] = Math.sqrt(source_array[i])
+    i += 1
+  end
+  return squared_array
+end
+
+
